@@ -1,0 +1,8 @@
+{
+  "name": "Broccoli & Co.",
+  "short_name": "B&C",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "start_url": ".",
+  "display": "standalone"
+}

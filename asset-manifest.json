@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/broccoli-co/static/css/main.0bac7fac.chunk.css",
+    "main.js": "/broccoli-co/static/js/main.2a21e091.chunk.js",
+    "main.js.map": "/broccoli-co/static/js/main.2a21e091.chunk.js.map",
+    "runtime-main.js": "/broccoli-co/static/js/runtime-main.0df09dc2.js",
+    "runtime-main.js.map": "/broccoli-co/static/js/runtime-main.0df09dc2.js.map",
+    "static/js/2.8c545294.chunk.js": "/broccoli-co/static/js/2.8c545294.chunk.js",
+    "static/js/2.8c545294.chunk.js.map": "/broccoli-co/static/js/2.8c545294.chunk.js.map",
+    "index.html": "/broccoli-co/index.html",
+    "precache-manifest.5c8980dc876c2071f1b383f054f42959.js": "/broccoli-co/precache-manifest.5c8980dc876c2071f1b383f054f42959.js",
+    "service-worker.js": "/broccoli-co/service-worker.js",
+    "static/css/main.0bac7fac.chunk.css.map": "/broccoli-co/static/css/main.0bac7fac.chunk.css.map",
+    "static/js/2.8c545294.chunk.js.LICENSE.txt": "/broccoli-co/static/js/2.8c545294.chunk.js.LICENSE.txt",
+    "static/media/check-circle.28c8c0da.svg": "/broccoli-co/static/media/check-circle.28c8c0da.svg",
+    "static/media/exclamation-circle.2e49826a.svg": "/broccoli-co/static/media/exclamation-circle.2e49826a.svg",
+    "static/media/exclamation-triangle.409d1431.svg": "/broccoli-co/static/media/exclamation-triangle.409d1431.svg",
+    "static/media/logo.581027b4.svg": "/broccoli-co/static/media/logo.581027b4.svg",
+    "static/media/x.35e06264.svg": "/broccoli-co/static/media/x.35e06264.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0df09dc2.js",
+    "static/js/2.8c545294.chunk.js",
+    "static/css/main.0bac7fac.chunk.css",
+    "static/js/main.2a21e091.chunk.js"
+  ]
+}
