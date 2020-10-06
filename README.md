@@ -54,6 +54,8 @@ design provided.**
 - Email "usedemail@airwallex.com" is hardcoded in the backend to trigger a specific error that needs to be handled by the front-end app.
 </details>
 
+## Demo
+Checkout the [GitHub Page](https://johanmouchet.github.io/broccoli-co/)
 
 ## About This App
 
