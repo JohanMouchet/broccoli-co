@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders <FullHeight /> without crashing 1`] = `
+<div
+  class="layout"
+>
+  <div
+    class="container container container--xl"
+  >
+    <header
+      class="header"
+    >
+      <span
+        class="logo"
+      >
+        <span
+          class="logo-icon"
+        >
+          <svg>
+            logo.svg
+          </svg>
+        </span>
+        <h2
+          class="logo-text"
+        >
+          Broccoli & Co.
+        </h2>
+      </span>
+    </header>
+    <main
+      class="main"
+    >
+      children
+    </main>
+    <footer
+      class="footer"
+    >
+      <span
+        class="copy"
+      >
+        Made with ♡ in 
+        Melbourne
+        . Developed by
+         
+        <a
+          href="https://www.johan-mouchet.com/"
+        >
+          Johan Mouchet
+        </a>
+        .
+      </span>
+      <i
+        class="copy"
+      >
+        © 
+        2020
+         
+        Broccoli & Co.
+         All rights reserved.
+      </i>
+    </footer>
+  </div>
+</div>
+`;

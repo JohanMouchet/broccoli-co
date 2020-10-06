@@ -1,0 +1,24 @@
+/* stylelint-disable color-no-hex */
+
+/** Primary **/
+$s-color-primary: #7faeff;
+$s-color-primary-lighter: scale-color($s-color-primary, $lightness: 10%);
+$s-color-primary-darker: scale-color($s-color-primary, $lightness: -10%);
+
+/** Secondary **/
+$s-color-secondary: #ffc5ef;
+$s-color-secondary-lighter: scale-color($s-color-secondary, $lightness: 10%);
+$s-color-secondary-darker: scale-color($s-color-secondary, $lightness: -10%);
+
+/** Shades of gray **/
+$s-color-white: #fff;
+$s-color-gray: #eff2f5;
+$s-color-gray-lighter: lighten($s-color-gray, 3%);
+$s-color-gray-darker: darken($s-color-gray, 3%);
+$s-color-black: #111;
+
+/** States **/
+$s-color-success: #68d391;
+$s-color-info: #63b3ed;
+$s-color-warning: #f6ad55;
+$s-color-danger: #fc8181;

@@ -1,0 +1,27 @@
+@import "assets/styles/settings/_settings";
+
+.loader {
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.8rem;
+  margin: 0.2rem;
+  vertical-align: text-bottom;
+  border: 2px solid $s-color-primary;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: loader-spin-animation 1s infinite ease-out both;
+
+  @keyframes loader-spin-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+.white {
+  border-color: $s-color-white;
+  border-top-color: transparent;
+}

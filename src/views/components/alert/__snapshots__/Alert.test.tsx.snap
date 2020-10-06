@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders <Alert /> without crashing 1`] = `
+<div
+  class="alert closable success fixed-bottom container"
+>
+  <div
+    class="grid"
+  >
+    <div
+      aria-label="success"
+      class="icon cell"
+    >
+      <svg>
+        check-circle.svg
+      </svg>
+    </div>
+    <div
+      class="content cell cell-grow"
+    >
+      children
+    </div>
+    <div
+      class="close cell"
+    >
+      <button
+        aria-label="Close"
+        class="close-button"
+        type="button"
+      >
+        <svg>
+          x.svg
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;

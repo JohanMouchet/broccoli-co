@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders <Button /> without crashing 1`] = `
+<button
+  class="button block"
+  type="button"
+>
+  children
+</button>
+`;

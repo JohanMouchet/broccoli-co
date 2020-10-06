@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "stylelint.vscode-stylelint",
+    "esbenp.prettier-vscode",
+    "streetsidesoftware.code-spell-checker",
+    "tobermory.es6-string-html"
+  ]
+}

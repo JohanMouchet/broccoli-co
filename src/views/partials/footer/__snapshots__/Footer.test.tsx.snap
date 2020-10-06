@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders <Footer /> without crashing 1`] = `
+<footer
+  class="footer"
+>
+  <span
+    class="copy"
+  >
+    Made with ♡ in 
+    Melbourne
+    . Developed by
+     
+    <a
+      href="https://www.johan-mouchet.com/"
+    >
+      Johan Mouchet
+    </a>
+    .
+  </span>
+  <i
+    class="copy"
+  >
+    © 
+    2020
+     
+    Broccoli & Co.
+     All rights reserved.
+  </i>
+</footer>
+`;

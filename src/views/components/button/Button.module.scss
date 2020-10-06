@@ -1,0 +1,44 @@
+@import "assets/styles/settings/_settings";
+
+.button {
+  display: inline-block;
+  padding: map-get($s-sizes, xs) map-get($s-sizes, xl);
+  font-family: $s-font-family-sans;
+  font-size: 1rem;
+  line-height: $s-line-height-base;
+  color: $s-color-primary;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: inherit;
+  vertical-align: middle;
+  cursor: pointer;
+  background: none;
+  border: 2px solid $s-color-primary;
+  border-radius: 0;
+  transition: color 0.2s, background 0.2s, border-color 0.2s,
+    transform 0.1s ease-out;
+
+  &:hover,
+  &:focus {
+    color: $s-color-white;
+    text-decoration: none;
+    background-color: $s-color-primary-lighter;
+    border-color: $s-color-primary-lighter;
+  }
+
+  &:active {
+    color: $s-color-white;
+    background-color: $s-color-primary-darker;
+    border-color: $s-color-primary-darker;
+    transform: translateY(2px);
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+/** Full width **/
+.block {
+  width: 100%;
+}

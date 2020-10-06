@@ -1,0 +1,31 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "simple-import-sort",
+    "jest",
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "react-app",
+    "plugin:jest/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "simple-import-sort/sort": [
+      "error",
+      {
+        "groups": [
+          [
+            "^react",
+            "^\\u0000",
+            "^@?\\w",
+            "^[^.]",
+            "^\\.",
+            "^.+\\.scss$"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+@import "assets/styles/settings/_settings";
+
+.label {
+  display: block;
+  margin-bottom: map-get($s-sizes, lg);
+}
+
+.field {
+  width: 100%;
+  padding: map-get($s-sizes, xs) map-get($s-sizes, sm);
+  font-family: $s-font-family-sans;
+  font-size: 1rem;
+  line-height: $s-line-height-base;
+  color: $s-color-text;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  background-color: transparent;
+  border: 2px solid $s-color-gray;
+  transition: color 0.2s, background-color 0.2s, border 0.2s;
+  appearance: none;
+
+  /* States */
+
+  /** Hover **/
+  &:hover {
+    border-color: $s-color-gray-lighter;
+  }
+
+  /** Focus **/
+  &:focus {
+    border-color: $s-color-text;
+    outline: none;
+  }
+
+  /* Required */
+  &:required {
+    box-shadow: none;
+  }
+}
+
+.validation {
+  display: block;
+  font-size: 0.85rem;
+  color: $s-color-warning;
+}

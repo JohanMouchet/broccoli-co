@@ -1,0 +1,21 @@
+.container {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  padding-right: map-get($s-sizes, xl);
+  padding-left: map-get($s-sizes, xl);
+  margin-right: auto;
+  margin-left: auto;
+
+  @media (min-width: map-get($s-breakpoints, md)) {
+    padding-right: map-get($s-sizes, md) * 2;
+    padding-left: map-get($s-sizes, md) * 2;
+  }
+
+  /** Sizes **/
+  @each $bp-short, $bp-size in $s-breakpoints {
+    &--#{$bp-short} {
+      max-width: #{$bp-size};
+    }
+  }
+}

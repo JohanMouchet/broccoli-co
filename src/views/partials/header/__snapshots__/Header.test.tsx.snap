@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders <Header /> without crashing 1`] = `
+<header
+  class="header"
+>
+  <span
+    class="logo"
+  >
+    <span
+      class="logo-icon"
+    >
+      <svg>
+        logo.svg
+      </svg>
+    </span>
+    <h2
+      class="logo-text"
+    >
+      Broccoli & Co.
+    </h2>
+  </span>
+</header>
+`;

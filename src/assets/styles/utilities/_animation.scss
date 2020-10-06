@@ -1,0 +1,38 @@
+/**
+ * Animation
+ */
+
+.animation {
+  animation-duration: 0.25s;
+  animation-fill-mode: both;
+
+  &--fade-in {
+    @keyframes animation--fade-in {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    animation-name: animation--fade-in;
+  }
+
+  &--fade-in-up {
+    @keyframes animation--fade-in-up {
+      from {
+        opacity: 0;
+        transform: translateY(map-get($s-sizes, lg));
+      }
+
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+
+    animation-name: animation--fade-in-up;
+  }
+}

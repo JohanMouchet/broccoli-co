@@ -1,0 +1,28 @@
+@import "assets/styles/settings/_settings";
+
+.header {
+  padding: map-get($s-sizes, xs) 0;
+  margin-bottom: auto;
+  border-bottom: 1px solid;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+
+  &-icon {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    margin-right: map-get($s-sizes, xs);
+
+    svg {
+      fill: currentColor;
+    }
+  }
+
+  &-text {
+    margin: 0;
+    font-weight: 400;
+  }
+}

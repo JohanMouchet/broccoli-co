@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders <Field /> without crashing 1`] = `
+<label
+  class="label"
+>
+  <input
+    class="field"
+    name="name"
+    type="text"
+  />
+</label>
+`;
